@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+此檔案是由 Eclipse Implementation of JAXB, v3.0.0 所產生 
+請參閱 https://eclipse-ee4j.github.io/jaxb-ri 
+一旦重新編譯來源綱要, 對此檔案所做的任何修改都將會遺失. 
+產生時間: 2024.12.05 於 12:05:47 AM CST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://hle.org/soapserver/gen">
+    <schemaBindings map="false">
+      <package name="org.hle.soapserver.gen"/>
+    </schemaBindings>
+    <bindings scd="tns:getCountryRequest">
+      <class ref="org.hle.soapserver.gen.GetCountryRequest"/>
+    </bindings>
+    <bindings scd="tns:getCountryResponse">
+      <class ref="org.hle.soapserver.gen.GetCountryResponse"/>
+    </bindings>
+    <bindings scd="~tns:country">
+      <class ref="org.hle.soapserver.gen.Country"/>
+    </bindings>
+    <bindings scd="~tns:currency">
+      <typesafeEnumClass ref="org.hle.soapserver.gen.Currency"/>
+    </bindings>
+  </bindings>
+</bindings>
+
